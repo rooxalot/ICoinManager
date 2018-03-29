@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - ICoinManager.Domain", "2 - ICoinManager.Domain", "{4BB60468-B917-4A0F-8B11-F35091C85FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Domain", "ICoinManager.Domain\ICoinManager.Domain.csproj", "{B8E7D30E-564C-4BD0-9DA4-7AC9ABFC73EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - ICoinManager.Spammer", "1 - ICoinManager.Spammer", "{4C42C634-9193-424C-A3B5-F8ADF0FA564A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Spammer", "ICoinManager.Spammer\ICoinManager.Spammer.csproj", "{591C01D9-7DAB-4486-89AA-16B69225091E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - ICoinManager.Common", "3 - ICoinManager.Common", "{4931736B-FC2A-4157-B656-35C39CC207BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Common", "ICoinManager.Common\ICoinManager.Common.csproj", "{BFDBDD93-B412-417E-B9F0-8865FCA83661}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - ICoinManager.API", "0 - ICoinManager.API", "{8FC820E7-91B8-4776-A998-802C439346D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.API", "ICoinManager.API\ICoinManager.API.csproj", "{B2043696-4D16-47F3-BA24-C3264B821588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- ICoinManager.Infra", "4- ICoinManager.Infra", "{55AACF41-C38F-43F5-837F-BD1641B951ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - ICoinManager.Infra.EntityData", "4.1 - ICoinManager.Infra.EntityData", "{7C5CD0CA-DC28-409F-BA4E-394053E29F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Infra.EntityData", "ICoinManager.Infra.EntityData\ICoinManager.Infra.EntityData.csproj", "{D65179E8-A4E6-40E0-AA2C-C9889F238295}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - ICoinManager.Infra.IoC", "4.2 - ICoinManager.Infra.IoC", "{1108D469-99E7-4A3C-9474-EB6D37D2280D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Infra.IoC", "ICoinManager.Infra.IoC\ICoinManager.Infra.IoC.csproj", "{06836C6F-9805-4D4E-975C-43633B2294B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8E7D30E-564C-4BD0-9DA4-7AC9ABFC73EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E7D30E-564C-4BD0-9DA4-7AC9ABFC73EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E7D30E-564C-4BD0-9DA4-7AC9ABFC73EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E7D30E-564C-4BD0-9DA4-7AC9ABFC73EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591C01D9-7DAB-4486-89AA-16B69225091E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591C01D9-7DAB-4486-89AA-16B69225091E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591C01D9-7DAB-4486-89AA-16B69225091E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591C01D9-7DAB-4486-89AA-16B69225091E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDBDD93-B412-417E-B9F0-8865FCA83661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDBDD93-B412-417E-B9F0-8865FCA83661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDBDD93-B412-417E-B9F0-8865FCA83661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDBDD93-B412-417E-B9F0-8865FCA83661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2043696-4D16-47F3-BA24-C3264B821588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2043696-4D16-47F3-BA24-C3264B821588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2043696-4D16-47F3-BA24-C3264B821588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2043696-4D16-47F3-BA24-C3264B821588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65179E8-A4E6-40E0-AA2C-C9889F238295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65179E8-A4E6-40E0-AA2C-C9889F238295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65179E8-A4E6-40E0-AA2C-C9889F238295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65179E8-A4E6-40E0-AA2C-C9889F238295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06836C6F-9805-4D4E-975C-43633B2294B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06836C6F-9805-4D4E-975C-43633B2294B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06836C6F-9805-4D4E-975C-43633B2294B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06836C6F-9805-4D4E-975C-43633B2294B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8E7D30E-564C-4BD0-9DA4-7AC9ABFC73EB} = {4BB60468-B917-4A0F-8B11-F35091C85FE4}
+		{591C01D9-7DAB-4486-89AA-16B69225091E} = {4C42C634-9193-424C-A3B5-F8ADF0FA564A}
+		{BFDBDD93-B412-417E-B9F0-8865FCA83661} = {4931736B-FC2A-4157-B656-35C39CC207BE}
+		{B2043696-4D16-47F3-BA24-C3264B821588} = {8FC820E7-91B8-4776-A998-802C439346D9}
+		{7C5CD0CA-DC28-409F-BA4E-394053E29F63} = {55AACF41-C38F-43F5-837F-BD1641B951ED}
+		{D65179E8-A4E6-40E0-AA2C-C9889F238295} = {7C5CD0CA-DC28-409F-BA4E-394053E29F63}
+		{1108D469-99E7-4A3C-9474-EB6D37D2280D} = {55AACF41-C38F-43F5-837F-BD1641B951ED}
+		{06836C6F-9805-4D4E-975C-43633B2294B2} = {1108D469-99E7-4A3C-9474-EB6D37D2280D}
+	EndGlobalSection
+EndGlobal
