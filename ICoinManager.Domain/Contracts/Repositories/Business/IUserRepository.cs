@@ -7,6 +7,6 @@ namespace ICoinManager.Domain.Contracts.Repositories.Business
     public interface IUserRepository : IRepositoryBase<User>
     {
         User Authenticate(string login, string password);
-        IEnumerable<Coin> GetUserFavoriteCoinsByLogin(string login);
+        IEnumerable<CryptoCoin> GetUserFavoriteCoinsByLogin(string login);
     }
 }

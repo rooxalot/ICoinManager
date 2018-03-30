@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - ICoinManager.Domain", "2 - ICoinManager.Domain", "{4BB60468-B917-4A0F-8B11-F35091C85FE4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - ICoinManager.Domain", "3 - ICoinManager.Domain", "{4BB60468-B917-4A0F-8B11-F35091C85FE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Domain", "ICoinManager.Domain\ICoinManager.Domain.csproj", "{B8E7D30E-564C-4BD0-9DA4-7AC9ABFC73EB}"
 EndProject
@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - ICoinManager.Spammer", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Spammer", "ICoinManager.Spammer\ICoinManager.Spammer.csproj", "{591C01D9-7DAB-4486-89AA-16B69225091E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - ICoinManager.Common", "3 - ICoinManager.Common", "{4931736B-FC2A-4157-B656-35C39CC207BE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - ICoinManager.Common", "4 - ICoinManager.Common", "{4931736B-FC2A-4157-B656-35C39CC207BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Common", "ICoinManager.Common\ICoinManager.Common.csproj", "{BFDBDD93-B412-417E-B9F0-8865FCA83661}"
 EndProject
@@ -19,15 +19,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - ICoinManager.API", "0 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.API", "ICoinManager.API\ICoinManager.API.csproj", "{B2043696-4D16-47F3-BA24-C3264B821588}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- ICoinManager.Infra", "4- ICoinManager.Infra", "{55AACF41-C38F-43F5-837F-BD1641B951ED}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - ICoinManager.Infra", "5 - ICoinManager.Infra", "{55AACF41-C38F-43F5-837F-BD1641B951ED}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - ICoinManager.Infra.EntityData", "4.1 - ICoinManager.Infra.EntityData", "{7C5CD0CA-DC28-409F-BA4E-394053E29F63}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - ICoinManager.Infra.EntityData", "5.1 - ICoinManager.Infra.EntityData", "{7C5CD0CA-DC28-409F-BA4E-394053E29F63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Infra.EntityData", "ICoinManager.Infra.EntityData\ICoinManager.Infra.EntityData.csproj", "{D65179E8-A4E6-40E0-AA2C-C9889F238295}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - ICoinManager.Infra.IoC", "4.2 - ICoinManager.Infra.IoC", "{1108D469-99E7-4A3C-9474-EB6D37D2280D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.3 - ICoinManager.Infra.IoC", "5.3 - ICoinManager.Infra.IoC", "{1108D469-99E7-4A3C-9474-EB6D37D2280D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Infra.IoC", "ICoinManager.Infra.IoC\ICoinManager.Infra.IoC.csproj", "{06836C6F-9805-4D4E-975C-43633B2294B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 -ICoinManager.ApplicationBusiness", "2 -ICoinManager.ApplicationBusiness", "{0D869BBA-4820-4A55-8C52-7A494130DD80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.ApplicationBusiness", "ICoinManager.DomainBusiness\ICoinManager.ApplicationBusiness.csproj", "{84994B74-E913-4B79-904E-B1B6B079790B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - ICoinManager.Infra.CryptoCompareGateway", "5.2 - ICoinManager.Infra.CryptoCompareGateway", "{162B1851-3F96-49BA-B334-B79545EB7ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICoinManager.Infra.CryptoCompareGateway", "ICoinManager.Infra.CryptoCompareGateway\ICoinManager.Infra.CryptoCompareGateway.csproj", "{2285538A-4194-4403-A997-72035707A530}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +67,14 @@ Global
 		{06836C6F-9805-4D4E-975C-43633B2294B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06836C6F-9805-4D4E-975C-43633B2294B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06836C6F-9805-4D4E-975C-43633B2294B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84994B74-E913-4B79-904E-B1B6B079790B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84994B74-E913-4B79-904E-B1B6B079790B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84994B74-E913-4B79-904E-B1B6B079790B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84994B74-E913-4B79-904E-B1B6B079790B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2285538A-4194-4403-A997-72035707A530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2285538A-4194-4403-A997-72035707A530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2285538A-4194-4403-A997-72035707A530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2285538A-4194-4403-A997-72035707A530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +88,8 @@ Global
 		{D65179E8-A4E6-40E0-AA2C-C9889F238295} = {7C5CD0CA-DC28-409F-BA4E-394053E29F63}
 		{1108D469-99E7-4A3C-9474-EB6D37D2280D} = {55AACF41-C38F-43F5-837F-BD1641B951ED}
 		{06836C6F-9805-4D4E-975C-43633B2294B2} = {1108D469-99E7-4A3C-9474-EB6D37D2280D}
+		{84994B74-E913-4B79-904E-B1B6B079790B} = {0D869BBA-4820-4A55-8C52-7A494130DD80}
+		{162B1851-3F96-49BA-B334-B79545EB7ED8} = {55AACF41-C38F-43F5-837F-BD1641B951ED}
+		{2285538A-4194-4403-A997-72035707A530} = {162B1851-3F96-49BA-B334-B79545EB7ED8}
 	EndGlobalSection
 EndGlobal

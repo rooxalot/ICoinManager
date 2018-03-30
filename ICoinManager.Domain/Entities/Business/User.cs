@@ -1,10 +1,5 @@
 ﻿using ICoinManager.Domain.Base.Entities;
-using ICoinManager.Domain.Busiess.Entities;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ICoinManager.Domain.Entities.Business
 {
@@ -15,6 +10,6 @@ namespace ICoinManager.Domain.Entities.Business
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public List<Coin> FavoriteCoins { get; set; }
+        public List<CryptoCoin> FavoriteCoins { get; set; }
     }
 }

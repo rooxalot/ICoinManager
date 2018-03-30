@@ -22,7 +22,7 @@ namespace ICoinManager.Infra.EntityData.Repositories.Business
             return user;
         }
 
-        public IEnumerable<Coin> GetUserFavoriteCoinsByLogin(string login)
+        public IEnumerable<CryptoCoin> GetUserFavoriteCoinsByLogin(string login)
         {
             var user = Context.Users.FirstOrDefault(u => u.Login.Equals(login, StringComparison.OrdinalIgnoreCase));
             if (user == null)

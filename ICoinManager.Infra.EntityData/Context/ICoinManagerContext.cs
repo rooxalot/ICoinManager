@@ -1,5 +1,4 @@
-﻿using ICoinManager.Domain.Busiess.Entities;
-using ICoinManager.Domain.Entities.Business;
+﻿using ICoinManager.Domain.Entities.Business;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -26,7 +25,7 @@ namespace ICoinManager.Infra.EntityData.Context
 
         public DbSet<User> Users { get; set; }
         public DbSet<Exchange> Exchanges { get; set; }
-        public DbSet<Coin> Coins { get; set; }
+        public DbSet<CryptoCoin> CryptoCoins { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

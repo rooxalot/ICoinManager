@@ -40,18 +40,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\Gateways\ICryptoCoinGateway.cs" />
+    <Compile Include="Contracts\Gateways\IExchageGateway.cs" />
     <Compile Include="Contracts\Repositories\Base\IRepositoryBase.cs" />
+    <Compile Include="Contracts\Repositories\Business\ICryptoCoinRepository.cs" />
+    <Compile Include="Contracts\Repositories\Business\IExchangeRepository.cs" />
     <Compile Include="Contracts\Repositories\Business\IUserRepository.cs" />
     <Compile Include="Contracts\UnitOfWork\IUnitOfWork.cs" />
+    <Compile Include="Contracts\WebRequests\IWebRequester.cs" />
+    <Compile Include="DomainServices\CryptoCoinService.cs" />
+    <Compile Include="DomainServices\ExchangeService.cs" />
+    <Compile Include="DomainServices\UserService.cs" />
     <Compile Include="Entities\Base\BaseEntity.cs" />
-    <Compile Include="Entities\Business\Coin.cs" />
+    <Compile Include="Entities\Business\CryptoCoin.cs" />
     <Compile Include="Entities\Business\Exchange.cs" />
     <Compile Include="Entities\Business\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DomainBusiness\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

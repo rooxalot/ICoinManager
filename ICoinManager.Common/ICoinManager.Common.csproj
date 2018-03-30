@@ -51,12 +51,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExtensionMethods\ExtensionMethods.cs" />
-    <Compile Include="Helpers\WebRequester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebRequester\WebRequester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ICoinManager.Domain\ICoinManager.Domain.csproj">
+      <Project>{B8E7D30E-564C-4BD0-9DA4-7AC9ABFC73EB}</Project>
+      <Name>ICoinManager.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

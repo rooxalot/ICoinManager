@@ -7,13 +7,8 @@ namespace ICoinManager.Domain.Contracts.UnitOfWork
     public interface IUnitOfWork : IDisposable
     {
         IUserRepository UserRepository { get; }
-        //IClinicRepository ClinicRepository { get; }
-        //ICovenantRepository CovenantRepository { get; }
-        //IDoctorRepository DoctorRepository { get; }
-        //IMedicalRecordRepository MedicalRecordRepository { get; }
-        //IPacientRepository PacientRepository { get; }
-        //ISecretaryRepository SecretaryRepository { get; }
-        //IUserRepository UserRepository { get; }
+        IExchangeRepository ExchangeRepository { get; }
+        ICryptoCoinRepository CryptoCoinRepository { get; }
 
         void Commit();
         void Rollback();

@@ -1,5 +1,5 @@
-﻿using ICoinManager.Common.Helpers;
-using ICoinManager.Domain.Entities;
+﻿using ICoinManager.Domain.Entities;
+using ICoinManager.Infra.ExternalAccess.WebRequests;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;

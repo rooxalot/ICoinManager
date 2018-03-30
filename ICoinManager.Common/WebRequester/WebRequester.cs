@@ -1,16 +1,14 @@
 ﻿using ICoinManager.Common.ExtensionMethods;
+using ICoinManager.Domain.Contracts.WebRequests;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
-using System.Dynamic;
-using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ICoinManager.Common.Helpers
+namespace ICoinManager.Common.WebRequester
 {
     public class WebRequester
     {

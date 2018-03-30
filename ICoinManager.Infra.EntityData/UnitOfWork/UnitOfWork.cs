@@ -23,20 +23,20 @@ namespace ICoinManager.Infra.EntityData.UnitOfWork
         #region Variáveis Privadas
 
         private readonly ICoinManagerContext _context;
+
         private readonly IUserRepository _userRepository;
+        private readonly IExchangeRepository _exchangeRepository;
+        private readonly ICryptoCoinRepository _cryptoCoinRepository;
+
         private bool _isDisposed;
 
         #endregion
 
         #region Propriedades
 
-        public IUserRepository UserRepository
-        {
-            get
-            {
-                return _userRepository;
-            }
-        }
+        public IUserRepository UserRepository { get { return _userRepository; } }
+        public IExchangeRepository ExchangeRepository { get { return _exchangeRepository; } }
+        public ICryptoCoinRepository CryptoCoinRepository { get { return _cryptoCoinRepository; } }
 
         #endregion
 
